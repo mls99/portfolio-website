@@ -9,18 +9,8 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
 
-    </nav>
-
-  </div>
+  <?php include("includes/navigation.php"); ?>
 
   <h1>hi yeah yeah</h1>
 
