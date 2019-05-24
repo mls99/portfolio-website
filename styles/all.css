@@ -1,3 +1,39 @@
-.wrapper {
-  
+
+
+
+
+/*** Navigation ***/
+
+.main-content {
+  margin-left: 21.5%;
+  margin-right: 2%;
+}
+
+.desktop-nav {
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: #4D5057;
+}
+
+.nav-links {
+  padding: 0;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 40px auto;
+  width: 75%;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 120%;
+  color: white;
+
+
+
 }
