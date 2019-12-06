@@ -1,6 +1,53 @@
+.header{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-left {
+  float: left;
+}
+
+
+.navbar-right {
+  float: right;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+
+ul {
+  text-align: center;
+  flex: row;
+}
+
+nav ul {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*** Navigation ***/
 
+/**
 .main-content {
   margin-left: 21.5%;
   margin-right: 2%;
@@ -35,3 +82,5 @@
 
 
 }
+
+**/
