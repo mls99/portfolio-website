@@ -110,6 +110,16 @@ img {
 }
 
 
+#michael {
+  display: flex;
+  justify-content: center;
+}
+.michael {
+  height:50%;
+  width:50%;
+}
+
+
 
 
 
