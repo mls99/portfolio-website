@@ -1,21 +1,24 @@
 /* FONTS */
 @font-face {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   src: url("https://fonts.googleapis.com/css?family=Open+Sans");
 }
 
 @font-face {
-  font-family: 'LeagueSpartan';
-  src: url("../fonts/LeagueSpartan/LeagueSpartan-Bold.otf");
-  font-style: normal;
+  font-family: 'Merriweather', serif;
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans");
 }
-
 
 
 
 .header{
   display: flex;
   flex-direction: row;
+}
+
+header {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .navbar-left {
@@ -39,14 +42,22 @@ nav li a {
   text-decoration: none;
 }
 
+#name {
+  font-size: 1.6em;
+  letter-spacing: 0.01em;
+}
+
 ul {
   text-align: center;
   flex: row;
 }
 
 nav ul {
+  font-family: 'Roboto';
   text-align: center;
   font-size: 14px;
+  letter-spacing: 0.1em;
+  padding-top: 0;
 }
 
 #intro {
@@ -62,7 +73,7 @@ header {
 header h5 {
   margin-top: 5%;
   margin-bottom: 10%;
-  font-family: 'LeagueSpartan';
+  font-family: 'Merriweather';
   /* text-align: center; */
   word-spacing: 0.1em;
 }
@@ -93,10 +104,19 @@ h5 {
   margin-bottom: 20px;
 }
 
+.project {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.section {
+  border-top: 1px solid #F6F6F6;
+}
+
 
 /*** Images CSS ***/
 .smartspace {
-  width: 70%;
+  width: 60%;
 }
 
 img {
