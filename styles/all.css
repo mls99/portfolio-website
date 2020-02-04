@@ -142,6 +142,34 @@ img {
 
 
 
+/*** Footer ***/
+
+
+#footer {
+  justify-content: center;
+}
+.links ul {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  padding-top: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.links li {
+  display: inline-block;
+  padding: 2%;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10%;
+
+}
+
 
 
 
